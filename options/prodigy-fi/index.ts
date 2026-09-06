@@ -39,7 +39,7 @@ const config: Record<string, ChainConfig> = {
     currentVaultCreatedStartBlock: 24036992, // Upgrade to v8 which added vaultSeriesVersion field in VaultCreated event
     currentDepositStartBlock: 23831175, // No legacy deposits on Ethereum; the initial Deposit implementation already emitted yieldValue field
     start: "2025-11-19",
-    deadFrom: "2026-09-06",
+    deadFrom: "2026-09-05",
   },
   [CHAIN.BASE]: {
     factory: "0xFE198B51cfb1F96b56c63fe323a934BEAAA3b281",
@@ -48,7 +48,7 @@ const config: Record<string, ChainConfig> = {
     currentVaultCreatedStartBlock: 39795788, // Upgrade to v8 which added vaultSeriesVersion field in VaultCreated event
     currentDepositStartBlock: 30509116, // Upgrade to v4 which added yieldValue field in Deposit event
     start: "2024-11-08",
-    deadFrom: "2026-09-06",
+    deadFrom: "2026-09-05",
   },
   [CHAIN.BERACHAIN]: {
     factory: "0x29ca87b2f744127606ada4564da8219be6498ca1",
@@ -57,7 +57,7 @@ const config: Record<string, ChainConfig> = {
     currentVaultCreatedStartBlock: 14682550, // Upgrade to v8 which added vaultSeriesVersion field in VaultCreated event
     currentDepositStartBlock: 5297670, // Upgrade to v4 which added yieldValue field in Deposit event
     start: "2025-02-07",
-    deadFrom: "2026-09-06",
+    deadFrom: "2026-09-05",
   },
 };
 
